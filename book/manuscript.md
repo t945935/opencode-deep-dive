@@ -14,11 +14,11 @@
 本書不要求讀者一開始啟用所有能力。請先完成唯讀探索，再逐步加入模型設定、Session、Tool、Skill、MCP 與 Extension。每增加一層權限，都應增加對應的測試與回復方法。
 
 
-# 第一章　基礎與啟動 OpenCode
+# 基礎與啟動 OpenCode
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 1.1　OpenCode 是什麼
+## OpenCode 是什麼
 
 ### 本節目標
 
@@ -87,7 +87,7 @@ OpenCode 是協調模型、上下文與受控能力的代理環境。先理解�
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 1.2　安裝、啟動與基本操作
+## 安裝、啟動與基本操作
 
 ### 本節目標
 
@@ -160,7 +160,7 @@ opencode run "找出 add 函式，提出三個測試案例；不要修改檔案"
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 1.3　從請求到回應：Agent Loop
+## 從請求到回應：Agent Loop
 
 ### 本節目標
 
@@ -211,11 +211,11 @@ Agent Loop 是「模型提出、平台執行、結果回饋」的循環。清楚
 
 
 
-# 第二章　設定與模型選擇
+# 設定與模型選擇
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 2.1　設定檔放哪裡
+## 設定檔放哪裡
 
 ### 本節目標
 
@@ -310,7 +310,7 @@ git grep -n -i -E 'api[_-]?key|token|secret|password' -- ':!*.lock' || true
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 2.2　LLM Provider 與模型選擇
+## LLM Provider 與模型選擇
 
 ### 本節目標
 
@@ -381,11 +381,11 @@ Provider 暫時失效時，先保存 Session 與測試結果，再切換備援�
 
 
 
-# 第三章　工作階段與上下文
+# 工作階段與上下文
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 3.1　Session、訊息樹與上下文
+## Session、訊息樹與上下文
 
 ### 本節目標
 
@@ -453,7 +453,7 @@ Session 保存歷史，上下文決定模型當下看見什麼，Git 保存實�
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 3.2　中斷、停止與重新開始
+## 中斷、停止與重新開始
 
 ### 本節目標
 
@@ -506,11 +506,11 @@ git diff
 
 
 
-# 第四章　Prompt、Skills 與 Tools
+# Prompt、Skills 與 Tools
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 4.1　Prompt Templates 與 Skills
+## Prompt Templates 與 Skills
 
 ### 本節目標
 
@@ -554,7 +554,7 @@ Skill 是程式碼的一部分，應納入版本控制、附上範例輸入與�
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 4.2　常用 Skills 實戰
+## 常用 Skills 實戰
 
 ### 本節目標
 
@@ -585,7 +585,7 @@ Skill 是程式碼的一部分，應納入版本控制、附上範例輸入與�
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 4.3　內建工具與自訂工具
+## 內建工具與自訂工具
 
 ### 本節目標
 
@@ -611,11 +611,11 @@ Skill 是程式碼的一部分，應納入版本控制、附上範例輸入與�
 
 
 
-# 第五章　MCP、事件與 Extension
+# MCP、事件與 Extension
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 5.1　MCP 外部工具整合
+## MCP 外部工具整合
 
 ### 本節目標
 
@@ -641,7 +641,7 @@ Skill 描述「如何完成工作」；MCP 提供「可使用的外部能力」�
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 5.2　事件與生命週期
+## 事件與生命週期
 
 ### 本節目標
 
@@ -665,7 +665,7 @@ Skill 描述「如何完成工作」；MCP 提供「可使用的外部能力」�
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 5.3　Extension 架構
+## Extension 架構
 
 ### 本節目標
 
@@ -689,7 +689,7 @@ Skill 描述「如何完成工作」；MCP 提供「可使用的外部能力」�
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 5.4　實用擴充模式
+## 實用擴充模式
 
 ### 本節目標
 
@@ -718,7 +718,7 @@ Skill 描述「如何完成工作」；MCP 提供「可使用的外部能力」�
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 5.5　替換終端機 UI
+## 替換終端機 UI
 
 ### 本節目標
 
@@ -742,11 +742,11 @@ Skill 描述「如何完成工作」；MCP 提供「可使用的外部能力」�
 
 
 
-# 第六章　應用程式整合與發佈
+# 應用程式整合與發佈
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 6.1　SDK 整合
+## SDK 整合
 
 ### 本節目標
 
@@ -770,7 +770,7 @@ Skill 描述「如何完成工作」；MCP 提供「可使用的外部能力」�
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 6.2　JSONL RPC
+## JSONL RPC
 
 ### 本節目標
 
@@ -794,7 +794,7 @@ RPC Server 不應暴露本機任意路徑或無限制 Shell。每個連線要完
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 6.3　Package 發佈與維護
+## Package 發佈與維護
 
 ### 本節目標
 
@@ -818,11 +818,11 @@ Package 應包含入口、版本、授權、依賴、設定範例、最小使用
 
 
 
-# 第七章　完整實戰與工具選擇
+# 完整實戰與工具選擇
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 7.1　完整實戰專案
+## 完整實戰專案
 
 ### 本節目標
 
@@ -846,7 +846,7 @@ Agent 必須在專案根目錄工作，只能讀取原始碼與測試；修改�
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 7.2　OpenCode 與主流工具比較
+## OpenCode 與主流工具比較
 
 ### 本節目標
 
@@ -870,11 +870,11 @@ OpenCode 適合偏好終端機、需要多 Provider、希望自訂工具與 MCP�
 
 
 
-# 第八章　安全性與設計哲學
+# 安全性與設計哲學
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 8.1　最佳實務與安全性
+## 最佳實務與安全性
 
 ### 本節目標
 
@@ -898,7 +898,7 @@ Issue、網頁、文件與程式碼中的文字都是不可信資料；它們不
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
-## 8.2　OpenCode 的設計哲學
+## OpenCode 的設計哲學
 
 ### 精簡核心
 

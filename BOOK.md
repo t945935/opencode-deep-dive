@@ -1,48 +1,52 @@
 # 《OpenCode 深入解析：代理迴圈、工作階段、工具與擴充優先架構》
 
-本書採三層結構：**章 → 子章節 → 主題式段落**。完整合併稿位於 [`book/manuscript.md`](book/manuscript.md)，原始子章節位於 [`book/chapters/`](book/chapters/)。
+本書採三層結構：**主題章 → 子章節 → 主題式段落**。EPUB 目錄是獨立導覽，正文標題不顯示序號。
 
-## 八章目錄
+完整合併稿：[`book/manuscript.md`](book/manuscript.md)  
+章節原稿：[`book/chapters/`](book/chapters/)  
+讀者資源：<https://github.com/t945935/opencode-deep-dive>
 
-### 第一章　基礎與啟動 OpenCode
-- 1.1 OpenCode 是什麼
-- 1.2 安裝、啟動與基本操作
-- 1.3 從請求到回應：Agent Loop
+## 目錄結構
 
-### 第二章　設定與模型選擇
-- 2.1 設定檔放哪裡
-- 2.2 LLM Provider 與模型選擇
+### 基礎與啟動 OpenCode
+- OpenCode 是什麼
+- 安裝、啟動與基本操作
+- 從請求到回應：Agent Loop
 
-### 第三章　工作階段與上下文
-- 3.1 Session、訊息樹與上下文
-- 3.2 中斷、停止與重新開始
+### 設定與模型選擇
+- 設定檔放哪裡
+- LLM Provider 與模型選擇
 
-### 第四章　Prompt、Skills 與 Tools
-- 4.1 Prompt Templates 與 Skills
-- 4.2 常用 Skills 實戰
-- 4.3 內建工具與自訂工具
+### 工作階段與上下文
+- Session、訊息樹與上下文
+- 中斷、停止與重新開始
 
-### 第五章　MCP、事件與 Extension
-- 5.1 MCP 外部工具整合
-- 5.2 事件與生命週期
-- 5.3 Extension 架構
-- 5.4 實用擴充模式
-- 5.5 替換終端機 UI
+### Prompt、Skills 與 Tools
+- Prompt Templates 與 Skills
+- 常用 Skills 實戰
+- 內建工具與自訂工具
 
-### 第六章　應用程式整合與發佈
-- 6.1 SDK 整合
-- 6.2 JSONL RPC
-- 6.3 Package 發佈與維護
+### MCP、事件與 Extension
+- MCP 外部工具整合
+- 事件與生命週期
+- Extension 架構
+- 實用擴充模式
+- 替換終端機 UI
 
-### 第七章　完整實戰與工具選擇
-- 7.1 完整實戰專案
-- 7.2 OpenCode 與主流工具比較
+### 應用程式整合與發佈
+- SDK 整合
+- JSONL RPC
+- Package 發佈與維護
 
-### 第八章　安全性與設計哲學
-- 8.1 最佳實務與安全性
-- 8.2 OpenCode 的設計哲學
+### 完整實戰與工具選擇
+- 完整實戰專案
+- OpenCode 與主流工具比較
+
+### 安全性與設計哲學
+- 最佳實務與安全性
+- OpenCode 的設計哲學
 
 ## 附錄
 
-- A：常用指令速查
-- B：提交前檢查表
+- 常用指令速查
+- 提交前檢查表

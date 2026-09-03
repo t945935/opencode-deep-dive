@@ -41,6 +41,17 @@ h2 {
 
 h3 { color: #3d789d; }
 
+nav#toc, nav#landmarks {
+  background: #f0f8fc;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  margin: 1em 0 2em;
+  padding: 1em 1.4em;
+}
+
+nav#toc ol, nav#landmarks ol { padding-left: 1.4em; }
+nav#toc li, nav#landmarks li { margin: .45em 0; }
+
 a { color: #24658e; text-decoration: underline; }
 
 blockquote {
