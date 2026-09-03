@@ -17,14 +17,16 @@ main_chapters = [
 
 def as_subchapter(text, sub_number):
     lines = text.splitlines()
+    title_index = None
     for i, line in enumerate(lines):
         if line.startswith("# 第 "):
             title = re.sub(r"^# 第 \d+ 章　?", "", line)
             lines[i] = f"## {sub_number}　{title}"
+            title_index = i
             break
     # Headings inside a former chapter become topic-level paragraphs.
     for i, line in enumerate(lines):
-        if i and line.startswith("## "):
+        if i != title_index and line.startswith("## "):
             lines[i] = "### " + line[3:]
     return "\n".join(lines)
 
