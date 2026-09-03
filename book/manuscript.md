@@ -1,6 +1,6 @@
 # 《OpenCode 深入解析：代理迴圈、工作階段、工具與擴充優先架構》
 
-**作者：CyberGarage**  
+**作者：Happy eBook Author**  
 **版本：第一版初稿**
 
 ## 讀者服務
