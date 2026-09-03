@@ -27,7 +27,16 @@ def as_subchapter(text, sub_number):
     # Headings inside a former chapter become topic-level paragraphs.
     for i, line in enumerate(lines):
         if i != title_index and line.startswith("## "):
-            lines[i] = "### " + line[3:]
+            topic = line[3:]
+            # Old source files used global chapter numbers (e.g. 8.2).
+            # In the new hierarchy these are topic paragraphs, so remove
+            # the obsolete number and use local semantic headings.
+            topic = re.sub(r"^\d+\.\d+\s+", "", topic)
+            topic = topic.replace("本章目標", "本節目標")
+            topic = topic.replace("本章實作", "本節實作")
+            topic = topic.replace("章末練習", "本節練習")
+            topic = topic.replace("章末小結", "本節小結")
+            lines[i] = "### " + topic
     return "\n".join(lines)
 
 with out.open("w") as f:
