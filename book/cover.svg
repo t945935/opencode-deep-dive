@@ -19,16 +19,16 @@
   <text x="150" y="930" fill="#163e59" font-family="Noto Sans CJK TC, Source Han Sans TC, sans-serif" font-size="82" font-weight="600">深入解析</text>
   <text x="150" y="1110" fill="#315d76" font-family="Noto Serif CJK TC, Source Han Serif TC, serif" font-size="54">代理迴圈、工作階段、工具與</text>
   <text x="150" y="1190" fill="#315d76" font-family="Noto Serif CJK TC, Source Han Serif TC, serif" font-size="54">擴充優先架構</text>
-  <g transform="translate(150 1420)" fill="none" stroke="#2f6f9f" stroke-width="16" opacity=".9">
+  <g transform="translate(150 1420)" fill="none" stroke="#2f6f9f" stroke-width="9" opacity=".9">
     <rect x="0" y="0" width="300" height="170" rx="24"/>
     <rect x="500" y="0" width="300" height="170" rx="24"/>
     <rect x="1000" y="0" width="300" height="170" rx="24"/>
     <path d="M300 85 H500 M800 85 H1000"/>
-    <path d="M450 65 l50 20 -50 20 M950 65 l50 20 -50 20"/>
+    <path d="M468 73 l32 12 -32 12 M968 73 l32 12 -32 12"/>
   </g>
-  <text x="300" y="1525" fill="#2f6f9f" font-family="sans-serif" font-size="42">Model</text>
-  <text x="690" y="1525" fill="#2f6f9f" font-family="sans-serif" font-size="42">Session</text>
-  <text x="1200" y="1525" fill="#2f6f9f" font-family="sans-serif" font-size="42">Tools</text>
+  <text x="300" y="1525" text-anchor="middle" fill="#2f6f9f" font-family="Noto Sans CJK TC, Source Han Sans TC, sans-serif" font-size="42">模型</text>
+  <text x="800" y="1525" text-anchor="middle" fill="#2f6f9f" font-family="Noto Sans CJK TC, Source Han Sans TC, sans-serif" font-size="42">工作階段</text>
+  <text x="1300" y="1525" text-anchor="middle" fill="#2f6f9f" font-family="Noto Sans CJK TC, Source Han Sans TC, sans-serif" font-size="42">工具</text>
   <text x="150" y="2260" fill="#ffffff" font-family="Noto Sans CJK TC, Source Han Sans TC, sans-serif" font-size="58" font-weight="600">Happy eBook Author</text>
   <text x="150" y="2370" fill="#dff2fb" font-family="sans-serif" font-size="38">A practical guide to agent architecture</text>
 </svg>
