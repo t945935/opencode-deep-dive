@@ -2,7 +2,8 @@
 
 本儲存庫是《OpenCode 深入解析：代理迴圈、工作階段、工具與擴充優先架構》的讀者資源。
 
-- [書稿](BOOK.md)
+- [書稿入口](BOOK.md)
+- [可下載 EPUB 初版](OpenCode-深入解析.epub)
 - [第 5 章：模型選擇範例](examples/05-model-selection/)
 - [最小設定檔範例](resources/opencode.example.jsonc)
 
@@ -17,6 +18,10 @@ opencode models
 ```
 
 請依你的 OpenCode 版本與 Provider 帳號調整範例。模型 ID、設定欄位與可用功能會更新；以 [OpenCode 官方文件](https://opencode.ai/docs) 為準。
+
+## 出版格式
+
+`OpenCode-深入解析.epub` 是由合併書稿產生的閱讀初版；正式發佈前請在目標閱讀器試讀，並以 EPUBCheck 驗證。若章節內容更新，重新產生 EPUB。
 
 ## 安全性
 
