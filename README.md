@@ -4,6 +4,8 @@
 
 - [書稿入口](BOOK.md)
 - [可下載 EPUB 初版](OpenCode-深入解析.epub)
+- [出版前檢查表](RELEASE.md)
+- [架構圖原始檔](book/figures/)
 - [第 5 章：模型選擇範例](examples/05-model-selection/)
 - [最小設定檔範例](resources/opencode.example.jsonc)
 
@@ -18,6 +20,13 @@ opencode models
 ```
 
 請依你的 OpenCode 版本與 Provider 帳號調整範例。模型 ID、設定欄位與可用功能會更新；以 [OpenCode 官方文件](https://opencode.ai/docs) 為準。
+
+## 建置與檢查
+
+```bash
+make check
+make manuscript
+```
 
 ## 出版格式
 

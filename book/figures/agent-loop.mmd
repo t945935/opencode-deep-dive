@@ -1,0 +1,11 @@
+flowchart TD
+  A[Receive goal] --> B[Load settings and rules]
+  B --> C[Create or resume Session]
+  C --> D[Send context to Model]
+  D --> E{Model requests Tool?}
+  E -- No --> F[Return answer]
+  E -- Yes --> G{Permission allowed?}
+  G -- No --> H[Reject and report]
+  G -- Yes --> I[Run Tool]
+  I --> J[Store result in context]
+  J --> D

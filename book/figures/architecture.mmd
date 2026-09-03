@@ -1,0 +1,9 @@
+flowchart LR
+  U[User / Client] --> S[Session]
+  S --> C[Context builder]
+  C --> M[Provider / Model]
+  M -->|tool call| P[Permission gate]
+  P --> T[Tool / MCP]
+  T -->|result| S
+  M -->|answer| U
+  E[Skill / Extension] -. instructions and events .-> S
