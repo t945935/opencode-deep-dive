@@ -1,0 +1,83 @@
+/* OpenCode reader-friendly light-blue theme */
+:root {
+  --ink: #243447;
+  --muted: #5b7083;
+  --blue: #2f6f9f;
+  --blue-soft: #eaf4fb;
+  --line: #c9ddea;
+  --code-bg: #f1f7fb;
+}
+
+body {
+  color: var(--ink);
+  background: #fbfdff;
+  font-family: "Noto Serif CJK TC", "Source Han Serif TC", serif;
+  font-size: 1em;
+  line-height: 1.85;
+  margin: 0 7%;
+  text-align: justify;
+  widows: 2;
+  orphans: 2;
+}
+
+h1, h2, h3, h4 {
+  color: var(--blue);
+  font-family: "Noto Sans CJK TC", "Source Han Sans TC", sans-serif;
+  line-height: 1.35;
+  text-align: left;
+}
+
+h1 {
+  border-bottom: 3px solid var(--line);
+  padding-bottom: .35em;
+  page-break-before: always;
+}
+
+h2 {
+  border-left: .35em solid #79b7d8;
+  padding-left: .6em;
+  margin-top: 1.8em;
+}
+
+h3 { color: #3d789d; }
+
+a { color: #24658e; text-decoration: underline; }
+
+blockquote {
+  background: var(--blue-soft);
+  border-left: 4px solid #79b7d8;
+  color: var(--muted);
+  margin: 1em 0;
+  padding: .7em 1em;
+}
+
+code {
+  background: var(--code-bg);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  color: #24506b;
+  font-family: "Noto Sans Mono CJK TC", monospace;
+  padding: .08em .25em;
+}
+
+pre {
+  background: var(--code-bg);
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  line-height: 1.5;
+  margin: 1.2em 0;
+  overflow-wrap: break-word;
+  padding: 1em;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+pre code { background: transparent; border: 0; color: var(--ink); padding: 0; }
+
+table { border-collapse: collapse; margin: 1em 0; width: 100%; }
+th { background: var(--blue-soft); color: var(--blue); }
+th, td { border: 1px solid var(--line); padding: .45em .65em; }
+tr:nth-child(even) { background: #f7fbfe; }
+
+li { margin: .25em 0; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
