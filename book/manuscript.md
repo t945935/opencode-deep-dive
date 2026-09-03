@@ -12,6 +12,10 @@
 本書以 OpenCode 1.18.25 作為技術基線。CLI 選項、模型 ID、Provider 與設定欄位可能更新；執行範例時請以官方文件及 `opencode --help` 為準。所有修改範例都應在 Git 專案中執行，並由人員閱讀 diff、執行測試後再提交。
 
 本書不要求讀者一開始啟用所有能力。請先完成唯讀探索，再逐步加入模型設定、Session、Tool、Skill、MCP 與 Extension。每增加一層權限，都應增加對應的測試與回復方法。
+
+
+# 第一篇　認識與啟動 OpenCode
+
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
 # 第 1 章　OpenCode 是什麼
@@ -208,6 +212,10 @@ opencode run "找出所有測試檔案，列出測試指令；不要修改檔案
 Agent Loop 是「模型提出、平台執行、結果回饋」的循環。清楚的工具合約、有限的上下文、可驗收的階段與可中斷的權限，決定了代理是否可靠。
 
 
+
+
+# 第二篇　設定與模型選擇
+
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
 # 第 4 章　設定檔放哪裡
@@ -376,6 +384,10 @@ Provider 暫時失效時，先保存 Session 與測試結果，再切換備援�
 模型是可替換的服務元件。初學者先選一個主力模型，以固定案例和測試評估，再因成本、長上下文、備援或隱私需求增加其他模型。
 
 
+
+
+# 第三篇　工作階段與上下文
+
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
 # 第 6 章　Session、訊息樹與上下文
@@ -499,6 +511,10 @@ git diff
 停止、檢查、判斷恢復方式，再繼續，是安全的代理循環。Session 能保存上下文，但只有人員、測試與版本控制能決定哪些變更值得保留。
 
 
+
+
+# 第四篇　Prompt、Skills 與 Tools
+
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
 # 第 8 章　Prompt Templates 與 Skills
@@ -602,6 +618,10 @@ Skill 是程式碼的一部分，應納入版本控制、附上範例輸入與�
 
 設計一個唯讀的 `list_tests` 工具，只能搜尋專案測試目錄，並在輸入含有 `..` 或絕對路徑時拒絕。工具越小，越容易審查與重用。
 
+
+
+
+# 第五篇　MCP、事件與 Extension
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
@@ -735,6 +755,10 @@ Skill 描述「如何完成工作」；MCP 提供「可使用的外部能力」�
 設計一個最小 Web Client 的狀態圖：Idle、Waiting、Tool Approval、Running、Completed、Failed、Cancelled。為每個轉移定義觸發事件與可見訊息。
 
 
+
+
+# 第六篇　應用程式整合與發佈
+
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
 # 第 16 章　SDK 整合
@@ -810,6 +834,10 @@ Package 應包含入口、版本、授權、依賴、設定範例、最小使用
 為一個 Skill Package 撰寫 README，包含安裝、設定、最小範例、權限、移除、相容性與問題回報方式。
 
 
+
+
+# 第七篇　完整實戰與工具選擇
+
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
 # 第 19 章　完整實戰專案
@@ -859,6 +887,10 @@ OpenCode 適合偏好終端機、需要多 Provider、希望自訂工具與 MCP�
 
 以你的團隊需求評分三個工具：工作流、整合、隱私、成本與維護。說明每個分數的證據，而不是只引用品牌印象。
 
+
+
+
+# 第八篇　安全性與設計哲學
 
 <!-- 正式稿章節；範例與勘誤見 https://github.com/t945935/opencode-deep-dive -->
 
