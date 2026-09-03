@@ -1,0 +1,5 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // Choose a provider/model that is enabled for your account.
+  "model": "provider/model-name"
+}
