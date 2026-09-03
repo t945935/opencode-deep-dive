@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2560" viewBox="0 0 1600 2560">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaf6fc"/>
+      <stop offset="1" stop-color="#b9dced"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6f9f"/>
+      <stop offset="1" stop-color="#174764"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="2560" fill="url(#bg)"/>
+  <circle cx="1320" cy="360" r="420" fill="#ffffff" opacity=".35"/>
+  <circle cx="250" cy="2260" r="520" fill="#79b7d8" opacity=".25"/>
+  <path d="M0 1870 C380 1660 700 2020 1600 1600 L1600 2560 L0 2560Z" fill="url(#panel)" opacity=".94"/>
+  <rect x="150" y="260" width="1300" height="12" fill="#2f6f9f"/>
+  <text x="150" y="470" fill="#174764" font-family="Noto Sans CJK TC, Source Han Sans TC, sans-serif" font-size="62" font-weight="600" letter-spacing="8">AI 程式設計代理實作指南</text>
+  <text x="150" y="760" fill="#163e59" font-family="Noto Sans CJK TC, Source Han Sans TC, sans-serif" font-size="130" font-weight="700">OpenCode</text>
+  <text x="150" y="930" fill="#163e59" font-family="Noto Sans CJK TC, Source Han Sans TC, sans-serif" font-size="82" font-weight="600">深入解析</text>
+  <text x="150" y="1110" fill="#315d76" font-family="Noto Serif CJK TC, Source Han Serif TC, serif" font-size="54">代理迴圈、工作階段、工具與</text>
+  <text x="150" y="1190" fill="#315d76" font-family="Noto Serif CJK TC, Source Han Serif TC, serif" font-size="54">擴充優先架構</text>
+  <g transform="translate(150 1420)" fill="none" stroke="#2f6f9f" stroke-width="16" opacity=".9">
+    <rect x="0" y="0" width="300" height="170" rx="24"/>
+    <rect x="500" y="0" width="300" height="170" rx="24"/>
+    <rect x="1000" y="0" width="300" height="170" rx="24"/>
+    <path d="M300 85 H500 M800 85 H1000"/>
+    <path d="M450 65 l50 20 -50 20 M950 65 l50 20 -50 20"/>
+  </g>
+  <text x="300" y="1525" fill="#2f6f9f" font-family="sans-serif" font-size="42">Model</text>
+  <text x="690" y="1525" fill="#2f6f9f" font-family="sans-serif" font-size="42">Session</text>
+  <text x="1200" y="1525" fill="#2f6f9f" font-family="sans-serif" font-size="42">Tools</text>
+  <text x="150" y="2260" fill="#ffffff" font-family="Noto Sans CJK TC, Source Han Sans TC, sans-serif" font-size="58" font-weight="600">Happy eBook Author</text>
+  <text x="150" y="2370" fill="#dff2fb" font-family="sans-serif" font-size="38">A practical guide to agent architecture</text>
+</svg>
